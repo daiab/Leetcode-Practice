@@ -102,8 +102,12 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header\stack_min.h" />
-    <ClInclude Include="header\stack_to_queue.h" />
+    <ClInclude Include="header\1_stack_min.h" />
+    <ClInclude Include="header\2_stack_to_queue.h" />
+    <ClInclude Include="header\3_reverse_stack.h" />
+    <ClInclude Include="header\4_cat_dog_queue.h" />
+    <ClInclude Include="header\5_max_window.h" />
+    <ClInclude Include="header\base.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
