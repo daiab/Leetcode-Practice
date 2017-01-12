@@ -15,6 +15,7 @@ header/3_reverse_stack.h
 header/4_cat_dog_queue.h
 header/5_max_window.h
 src/main.cpp
+header/6_dp_steel_split.h
     )
 
 add_executable(out.o ${SOURCE_FILES})
