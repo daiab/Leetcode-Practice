@@ -7,15 +7,17 @@
 #IncludeRegexTransform: 
 
 /home/daiab/code/cpp/Leetcode-Practice/src/main.cpp
-header/6_dp_steel_split.h
+header/7_magic_string.h
 -
 iostream
 -
 string
 -
 
-header/6_dp_steel_split.h
+header/7_magic_string.h
 header/base.h
+-
+algorithm
 -
 
 header/base.h

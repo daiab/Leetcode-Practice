@@ -3,15 +3,17 @@
 //#include<header/3_reverse_stack.h>
 //#include<header/4_cat_dog_queue.h>
 //#include<header/5_max_window.h>
-#include<header/6_dp_steel_split.h>
+//#include <header/6_dp_steel_split.h>
+#include<header/7_magic_string.h>
 #include <iostream>
-#include<string>
+#include <string>
 
 int main() {
 	//test_reverse_stack();
 	//test_cat_dog();
 	//test_max_window();
-    test_cut_steel();
+    //test_cut_steel();
+    test_magic_string();    
     std::cout << "over" << std::endl;
 	return 0;
 }
