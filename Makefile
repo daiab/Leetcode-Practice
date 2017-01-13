@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named out.o
+# Target rules for targets named out
 
 # Build rule for target.
-out.o: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 out.o
-.PHONY : out.o
+out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 out
+.PHONY : out
 
 # fast build rule for target.
-out.o/fast:
-	$(MAKE) -f CMakeFiles/out.o.dir/build.make CMakeFiles/out.o.dir/build
-.PHONY : out.o/fast
+out/fast:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/build
+.PHONY : out/fast
 
 src/main.o: src/main.cpp.o
 
@@ -129,7 +129,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/out.o.dir/build.make CMakeFiles/out.o.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -138,7 +138,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/out.o.dir/build.make CMakeFiles/out.o.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -147,7 +147,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/out.o.dir/build.make CMakeFiles/out.o.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... out.o"
+	@echo "... out"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

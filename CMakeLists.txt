@@ -18,5 +18,5 @@ src/main.cpp
 header/6_dp_steel_split.h
     )
 
-add_executable(out.o ${SOURCE_FILES})
 
+add_executable(out ${SOURCE_FILES})

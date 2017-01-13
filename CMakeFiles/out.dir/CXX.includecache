@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daiab/code/cpp/Leetcode-Practice/src/main.cpp
+header/6_dp_steel_split.h
+-
+iostream
+-
+string
+-
+
+header/6_dp_steel_split.h
+header/base.h
+-
+
+header/base.h
+vector
+-
+queue
+-
+iostream
+-
+string
+-
+deque
+-
+
