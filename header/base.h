@@ -4,6 +4,9 @@
 #include<iostream>
 #include<string>
 #include<deque>
+#include<algorithm>
+#include<map>
+//#include<utiliy>
 
 using std::cout;
 using std::endl;
@@ -11,3 +14,5 @@ using std::string;
 using std::vector;
 using std::queue;
 using std::deque;
+using std::map;
+using std::pair;

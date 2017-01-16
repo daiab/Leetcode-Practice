@@ -4,16 +4,35 @@
 //#include<header/4_cat_dog_queue.h>
 //#include<header/5_max_window.h>
 //#include <header/6_dp_steel_split.h>
-#include<header/7_magic_string.h>
-#include <iostream>
-#include <string>
+//#include<header/7_magic_string.h>
+//#include<header/8_license_format.h>
+//#include<header/448_find_number_disappeared_in_array.h>
+//#include<header/473_matchsticks_to_square.h>
+#include<header/452_shot_balloons.h>
+
+//bool contrast(int& a, int& b){
+    //return a > b;
+//}
+//void test(){
+    //std::vector<int> vec;
+    //vec = {1, 2, 4, 10, 2, 34, 9};
+    //std::sort(vec.begin(), vec.end(), contrast); 
+    //for(int i : vec){
+        //std::cout << i << " ";
+    //}
+    //std::cout << std::endl;
+
+//}
 
 int main() {
 	//test_reverse_stack();
 	//test_cat_dog();
-	//test_max_window();
+    //test_max_window();
     //test_cut_steel();
-    test_magic_string();    
-    std::cout << "over" << std::endl;
-	return 0;
+    //test_magic_string();    
+    //test();
+    //test_license_format();
+    //test_448();
+    //test_match_sticks();
+    test_shot_balloon();
 }

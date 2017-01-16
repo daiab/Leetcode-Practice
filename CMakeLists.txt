@@ -16,6 +16,10 @@ header/4_cat_dog_queue.h
 header/5_max_window.h
 src/main.cpp
 header/6_dp_steel_split.h
+header/7_magic_string.h
+header/8_license_format.h
+header/448_find_number_disappeared_in_array.h
+header/452_shot_balloons.h
     )
 
 

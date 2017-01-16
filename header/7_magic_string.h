@@ -1,10 +1,10 @@
 #include<header/base.h>
 #include<algorithm>
 
-class Solution{
+class MagicString{
     public:
         typedef string::size_type size;
-        int MagicString(size n){
+        int solution(size n){
             string str("1");
             int idx(0);
             while(str.size() < n){
@@ -16,6 +16,6 @@ class Solution{
 };
 
 void test_magic_string(){
-    Solution s;
-    cout << "1`s count == " << s.MagicString(10) << endl;;
+    MagicString ms;
+    cout << "1`s count == " << ms.solution(10) << endl;;
 } 

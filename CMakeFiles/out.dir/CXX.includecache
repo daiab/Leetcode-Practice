@@ -7,17 +7,11 @@
 #IncludeRegexTransform: 
 
 /home/daiab/code/cpp/Leetcode-Practice/src/main.cpp
-header/7_magic_string.h
--
-iostream
--
-string
+header/452_shot_balloons.h
 -
 
-header/7_magic_string.h
+header/452_shot_balloons.h
 header/base.h
--
-algorithm
 -
 
 header/base.h
@@ -30,5 +24,9 @@ iostream
 string
 -
 deque
+-
+algorithm
+-
+map
 -
 
