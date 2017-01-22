@@ -6,6 +6,7 @@
 #include<deque>
 #include<algorithm>
 #include<map>
+#include<stack>
 //#include<utiliy>
 
 using std::cout;
@@ -16,3 +17,4 @@ using std::queue;
 using std::deque;
 using std::map;
 using std::pair;
+using std::stack;

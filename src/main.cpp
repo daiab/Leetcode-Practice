@@ -11,7 +11,8 @@
 //#include<header/452_shot_balloons.h>
 //#include<header/451_sort_characters.h>
 //#include<header/455_assign_cookie.h>
-#include<header/403_forg_jump.h>
+//#include<header/403_forg_jump.h>
+#include<header/394_decode_string.h>
 
 //bool contrast(int& a, int& b){
     //return a > b;
@@ -40,5 +41,6 @@ int main() {
     //test_shot_balloon();
     //test_sort_characters();
     //test_assign_cookie();
-    test_forg_jump();
+    //test_forg_jump();
+    test_decode_string();
 }
