@@ -12,7 +12,9 @@
 //#include<header/451_sort_characters.h>
 //#include<header/455_assign_cookie.h>
 //#include<header/403_forg_jump.h>
-#include<header/394_decode_string.h>
+//#include<header/394_decode_string.h>
+//#include<header/219_contain_duplicate.h>
+#include<header/384_shuffle_array.h>
 
 //bool contrast(int& a, int& b){
     //return a > b;
@@ -42,5 +44,7 @@ int main() {
     //test_sort_characters();
     //test_assign_cookie();
     //test_forg_jump();
-    test_decode_string();
+    //test_decode_string();
+    //test_contain_duplicate();
+    test_shuffle_array();
 }

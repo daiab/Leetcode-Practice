@@ -24,6 +24,9 @@ header/451_sort_characters.h
 header/455_assign_cookie.h
 header/403_forg_jump.h
 header/394_decode_string.h
+header/393_valid_utf8.h
+header/219_contain_duplicate.h
+header/384_shuffle_array.h
     )
 
 

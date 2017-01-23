@@ -7,10 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/daiab/code/cpp/Leetcode-Practice/src/main.cpp
-header/394_decode_string.h
+header/384_shuffle_array.h
 -
 
-header/394_decode_string.h
+header/384_shuffle_array.h
 header/base.h
 -
 
@@ -30,5 +30,7 @@ algorithm
 map
 -
 stack
+-
+unordered_map
 -
 

@@ -7,6 +7,7 @@
 #include<algorithm>
 #include<map>
 #include<stack>
+#include<unordered_map>
 //#include<utiliy>
 
 using std::cout;
@@ -18,3 +19,4 @@ using std::deque;
 using std::map;
 using std::pair;
 using std::stack;
+using std::unordered_map;
