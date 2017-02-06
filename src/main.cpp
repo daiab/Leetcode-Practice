@@ -14,7 +14,8 @@
 //#include<header/403_forg_jump.h>
 //#include<header/394_decode_string.h>
 //#include<header/219_contain_duplicate.h>
-#include<header/384_shuffle_array.h>
+//#include<header/384_shuffle_array.h>
+#include<header/62_unique_path.h>
 
 //bool contrast(int& a, int& b){
     //return a > b;
@@ -46,5 +47,7 @@ int main() {
     //test_forg_jump();
     //test_decode_string();
     //test_contain_duplicate();
-    test_shuffle_array();
+    //test_shuffle_array();
+    test_unique_path();
+    
 }
