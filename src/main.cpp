@@ -18,7 +18,8 @@
 //#include<header/62_unique_path.h>
 //#include<header/32_longest_valid_parentheses.h>
 //#include<header/50_pow.h>
-#include<header/124_binary_tree_maximum_path_sum.h>
+//#include<header/124_binary_tree_maximum_path_sum.h>
+#include<header/200_number_of_islands.h>
 
 //bool contrast(int& a, int& b){
     //return a > b;
@@ -54,6 +55,7 @@ int main() {
     //test_unique_path();
     //test_longest_valid_parentheses();
     //test_pow_xn();
-    test_maximum_path_sum();
+    //test_maximum_path_sum();
+    test_number_islands();
     
 }
