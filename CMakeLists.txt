@@ -28,6 +28,9 @@ header/393_valid_utf8.h
 header/219_contain_duplicate.h
 header/384_shuffle_array.h
 header/62_unique_path.h
+header/32_longest_valid_parentheses.h
+header/50_pow.h
+header/124_binary_tree_maximum_path_sum.h
     )
 
 

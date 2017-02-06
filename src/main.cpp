@@ -15,7 +15,10 @@
 //#include<header/394_decode_string.h>
 //#include<header/219_contain_duplicate.h>
 //#include<header/384_shuffle_array.h>
-#include<header/62_unique_path.h>
+//#include<header/62_unique_path.h>
+//#include<header/32_longest_valid_parentheses.h>
+//#include<header/50_pow.h>
+#include<header/124_binary_tree_maximum_path_sum.h>
 
 //bool contrast(int& a, int& b){
     //return a > b;
@@ -48,6 +51,9 @@ int main() {
     //test_decode_string();
     //test_contain_duplicate();
     //test_shuffle_array();
-    test_unique_path();
+    //test_unique_path();
+    //test_longest_valid_parentheses();
+    //test_pow_xn();
+    test_maximum_path_sum();
     
 }
