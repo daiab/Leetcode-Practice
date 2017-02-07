@@ -32,6 +32,7 @@ header/32_longest_valid_parentheses.h
 header/50_pow.h
 header/124_binary_tree_maximum_path_sum.h
 header/200_number_of_islands.h
+header/different_sorting_algorithm.h
     )
 
 

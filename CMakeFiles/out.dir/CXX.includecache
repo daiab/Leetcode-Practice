@@ -7,11 +7,7 @@
 #IncludeRegexTransform: 
 
 /home/daiab/code/cpp/Leetcode-Practice/src/main.cpp
-header/200_number_of_islands.h
--
-
-header/200_number_of_islands.h
-header/base.h
+header/different_sorting_algorithm.h
 -
 
 header/base.h
@@ -32,5 +28,9 @@ map
 stack
 -
 unordered_map
+-
+
+header/different_sorting_algorithm.h
+header/base.h
 -
 
